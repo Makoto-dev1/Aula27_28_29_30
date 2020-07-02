@@ -1,0 +1,13 @@
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\bin\Debug\netcoreapp3.1\Aula27_28_29_30.exe
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\bin\Debug\netcoreapp3.1\Aula27_28_29_30.deps.json
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\bin\Debug\netcoreapp3.1\Aula27_28_29_30.runtimeconfig.json
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\bin\Debug\netcoreapp3.1\Aula27_28_29_30.runtimeconfig.dev.json
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\bin\Debug\netcoreapp3.1\Aula27_28_29_30.dll
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\bin\Debug\netcoreapp3.1\Aula27_28_29_30.pdb
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\obj\Debug\netcoreapp3.1\Aula27_28_29_30.csprojAssemblyReference.cache
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\obj\Debug\netcoreapp3.1\Aula27_28_29_30.AssemblyInfoInputs.cache
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\obj\Debug\netcoreapp3.1\Aula27_28_29_30.AssemblyInfo.cs
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\obj\Debug\netcoreapp3.1\Aula27_28_29_30.csproj.CoreCompileInputs.cache
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\obj\Debug\netcoreapp3.1\Aula27_28_29_30.dll
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\obj\Debug\netcoreapp3.1\Aula27_28_29_30.pdb
+I:\Users\Makoto-dev\Desktop\Senai\Aula27_28_29_30\obj\Debug\netcoreapp3.1\Aula27_28_29_30.genruntimeconfig.cache
