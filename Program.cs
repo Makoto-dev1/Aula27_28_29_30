@@ -13,7 +13,7 @@ namespace Aula27_28_29_30
             p1.Preco = 7500f;
 
             p1.Cadastrar(p1);
-            p1.Remover("Ibanez");
+            p1.Remover("Fender");
 
             Produto alterado = new Produto();
             alterado.Codigo = 2;

@@ -15,14 +15,14 @@ namespace Aula27_28_29_30
 
         public Produto()
         {
-            
-            // Solução do primeiro desafio
+            // ------------------------------------------------
+            // Solução do desafio
             string pasta = PATH.Split('/')[0];
 
             if(!Directory.Exists(pasta)){
                 Directory.CreateDirectory(pasta);
             }
-            
+            // ------------------------------------------------
 
             if(!File.Exists(PATH))
             {
@@ -96,6 +96,7 @@ namespace Aula27_28_29_30
 
             // Removemos as linhas que tiverem o termo passado como argumento
             // codigo=1;nome=Tagima;preco=7500
+            // Tagima 
             linhas.RemoveAll(l => l.Contains(_termo));
 
             // Reescrevemos nosso csv do zero
@@ -108,9 +109,10 @@ namespace Aula27_28_29_30
         /// <param name="_produtoAlterado">Objeto de Produto</param>
         public void Alterar(Produto _produtoAlterado){
 
-            // Linha de backup
+            // Criamos uma lista que servirá como uma espécie de backup para as linhas do csv
             List<string> linhas = new List<string>();
 
+            // Utilizamos a bliblioteca StreamReader para ler nosso .csv
             using(StreamReader arquivo = new StreamReader(PATH))
             {
                 string linha;
@@ -128,6 +130,7 @@ namespace Aula27_28_29_30
             // Adicionamos a linha alterada na lista de backup
             linhas.Add( PrepararLinha(_produtoAlterado) );
 
+            // Reescrevemos nosso csv do zero
             ReescreverCSV(linhas);         
         }
 
@@ -150,6 +153,8 @@ namespace Aula27_28_29_30
 
         private string Separar(string _coluna)
         {
+            // 0      1
+            // nome = Gibson
             return _coluna.Split("=")[1];
         }
 
@@ -158,5 +163,6 @@ namespace Aula27_28_29_30
         {
             return $"codigo={p.Codigo};nome={p.Nome};preco={p.Preco}";
         }
+
     }
 }
